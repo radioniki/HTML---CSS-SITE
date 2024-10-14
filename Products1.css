@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0%;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.navbar ul li a {
+  display: block;
+  color: white;
+  padding: 6px 13px;
+  font-size: 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.navbar li a:hover {
+  background-color: cyan;
+}
+
+.active {
+  background-color: rgb(212, 27, 27);
+}
+
+.navbar ul li a.active {
+  background: red;
+  border-radius: 2px;
+}
+
+.logo {
+  width: 120px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 270%;
+  margin-top: 1%;
+}
+
+.houses {
+  width: 35%;
+  height: 35%;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+table#table1 {
+  border: 0px solid;
+  border-spacing: 5px;
+  text-align: center;
+  float: right;
+  margin-right: 20%;
+  margin-top: 6%;
+}
+
+table#table1 th {
+  font-size: 200%;
+  padding-bottom: 4%;
+}
+
+table#table1 td {
+  font-size: 150%;
+}
+
+body {
+  background-image: url(assets/vector-studio-room-gray-background-with-soft-lighting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttons button {
+  margin-top: 40px;
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to bottom, black, red);
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  border-radius: 25px;
+  transition-duration: 0.4s;
+}
+
+.buttons .btn {
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.buttons button:hover {
+  transition-duration: 0.4s;
+  box-shadow: 10px 20px rgb(200, 45, 45);
+  background: linear-gradient(to bottom, red, black);
+}
+
+.button-cont[float:left;] .insta h3 {
+  float: center;
+}
+
+.main-footer {
+  text-align: center;
+  font-size: 10px;
+  margin-left: 500px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c095b2;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+  width: 200px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 350px;
+  float: right;
+  margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+  .navbar ul li a {
+    font-size: 0px;
+  }
+  .navbar ul li a.active {
+    background: none;
+  }
+}
+
+a {
+  color: white;
+  text-emphasis: none;
+  text-decoration: none;
+}

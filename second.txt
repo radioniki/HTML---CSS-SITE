@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Houses.gr Products2</title>
+    <link rel="stylesheet" type=text/css href="css/stylinggeneral.css" >
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <img src="no_bg_logo.png" alt="Our logo" class="logo" />
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="cont">
+        <div class="image">       
+           <img src="imageshtml/second2.webp" alt="Picture of Product " />
+        </div>
+  
+        <div class="text">
+  
+        <P> <h3>Περιγραφή Ακινήτου
+          <br> Πασσαρώνα Βουνοπλαγιά Κέντρο ΠΩΛΕΙΤΑΙ κατά αποκλειστικότητα Μονοκατοικία συνολικής
+           επιφάνειας 159 τ.μ. 2 επιπέδων . Αποτελείται από 3 Υπνοδωμάτια, 2 Σαλόνια, 2 Κουζίνες, 2 Μπάνια .
+            Είναι κατασκευασμένη το 1982 και ανακαινίστηκε το 2010. Διαθέτει θέρμανση Αυτόνομη - Πετρελαίου, Απεριόριστη Θέα,
+             Κουφώματα Ξύλινα, Πάρκινγκ, Αποθήκη , Κήπο, Τζάκι, A/C, Σκαλιά εισόδου, Ανοιχτωσιά, Μπαλκόνια 20 τ.μ. Απόσταση
+              από πόλη 7000 μέτρα Απόσταση από αεροδρόμιο 3000 μέτρα - Τιμή: 95.000 €
+          </h3></P>
+        </div>
+        
+      </div>
+
+      <div class="center">
+        <div class="float_r">
+          <img src="stars.png" alt="Stars" style="width: 180px" />
+          <p>
+            <TABLE class="content">
+              <thead>
+                <tr>
+                <th>
+                  Χαρακτηριστικά ακινήτου
+                </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>περιοχή </td>
+                  <td data-label=" περιοχή">  Ν. Ιωαννίνων Πασσαρώνα
+                  </td>
+                </tr>
+                <tr>
+                  <td>Τιμή </td>
+                  <td data-label="Τιμή"> 85.000 </td>
+                </tr>
+              <tr>
+                  <td> τιμή ανά τ.μ.</td>
+                  <td data-label="τιμή ανά τ.μ.">  535</td>
+              </tr>
+<tr>
+                  <td> Εμβαδό</td>
+                  <td data-label="Εμβαδό"> 159 τ.μ. </td>
+</tr>
+<tr>
+                  <td> Τύπος</td>
+                  <td data-label="Τύπος"> Μονοκατοικία </td>
+</tr>
+<tr>
+                  <td> Σύστημα θέρμανσης</td>
+                  <td data-label="Σύστημα θέρμανσης"> Αυτόνομη θέρμανση(πετρέλαιο) </td>
+</tr>
+<tr>
+
+                  <td> Υπνοδωμάτια</td>
+                  <td data-label="Υπνοδωμάτια"> 3</td>
+        </tr>
+        <tr> 
+          <td> Μπάνια</td>
+          <td> 2</td>
+        </tr>
+        <tr>
+          <td> Επίπεδα</td>
+          <td> 2</td>
+        </tr>
+        <tr>
+          <td> Έτος κατασκευής </td>
+          <td> 1982</td>
+        </tr>
+        <tr>
+          <td> Θέση στάθμευσης</td>
+          <td> Ναι</td>
+        </tr>
+        <tr>
+          <td> Διαθέσιμο από</td>
+          <td> Άμεσα διαθέσιμο</td>
+        </tr>
+
+                    <tr>
+                  <td> Κωδικός ακινήτου</td>
+                  <td data-label="Κωδικός αυτοκινήτου">7945</td> 
+            </tr>
+  
+              </tbody>
+            </TABLE>
+          </p>
+          <div class="buttons">
+            <button>Contact Owner here</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

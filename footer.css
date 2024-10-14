@@ -1,0 +1,55 @@
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c095b2;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 350px;
+  float: right;
+  margin-top: 100px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-cont[float:left;] .insta h3 {
+  float: center;
+}
+
+.main-footer {
+  text-align: center;
+  font-size: 10px;
+  margin-left: 500px;
+}
+
+.connect {
+  margin-left: 0px;
+}

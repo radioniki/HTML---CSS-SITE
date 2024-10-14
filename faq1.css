@@ -1,0 +1,217 @@
+.h1kap {
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 270%;
+  margin-top: 1%;
+}
+
+.question {
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 120%;
+}
+
+.answer {
+  padding-left: 30%;
+  padding-right: 35%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 110%;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 5%;
+  height: 5%;
+  border-radius: 50%;
+}
+
+table#table1 {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+table#table1 td {
+  padding-bottom: 1%;
+}
+
+table#table1 td {
+  width: 33.333333333%;
+  font-weight: bold;
+}
+
+.language {
+  padding-left: 30%;
+  text-decoration: underline;
+  font-size: 130%;
+}
+
+.script1 {
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-size: 120%;
+}
+body {
+  background-image: url(assets/vector-studio-room-gray-background-with-soft-lighting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 1%;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0%;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.navbar ul li a {
+  display: block;
+  color: white;
+  padding: 6px 13px;
+  font-size: 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.navbar li a:hover {
+  background-color: #50acd1;
+}
+
+.active {
+  background-color: rgb(212, 27, 27);
+}
+
+.navbar ul li a.active {
+  background: red;
+  border-radius: 2px;
+}
+
+.logo {
+  width: 120px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c095b2;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+  width: 200px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 350px;
+  float: right;
+  margin-top: 50px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-cont[float:left;] .insta h3 {
+  float: center;
+}
+
+.main-footer {
+  text-align: center;
+  font-size: 10px;
+  margin-left: 500px;
+}
+
+.connect {
+  margin-left: 0px;
+}
+
+.button-cont[float:left;] .insta h3 {
+  float: center;
+}
+
+.main-footer {
+  text-align: center;
+  font-size: 10px;
+  margin-left: 500px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c095b2;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+  width: 200px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 350px;
+  float: right;
+  margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+  .navbar ul li a {
+    font-size: 0px;
+  }
+  .navbar ul li a.active {
+    background: none;
+  }
+}
